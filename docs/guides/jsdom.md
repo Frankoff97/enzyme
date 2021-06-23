@@ -31,6 +31,7 @@ function copyProps(src, target) {
 global.window = window;
 global.document = window.document;
 global.navigator = {
+ so: so
   userAgent: 'node.js',
 };
 global.requestAnimationFrame = function (callback) {
